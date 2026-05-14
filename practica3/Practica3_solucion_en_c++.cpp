@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <climits>
+#include <algorithm> // <-- Faltaba esto
 using namespace std;
 
 int maxCruce(vector<int>& arr, int izq, int mid, int der) {
@@ -34,4 +35,14 @@ int maxSubarreglo(vector<int>& arr, int izq, int der) {
     int cruceSuma = maxCruce(arr, izq, mid, der);
 
     return max({izqSuma, derSuma, cruceSuma});
+}
+
+int main() {
+    vector<int> arr = {5, 4, -1, 7, 8};
+
+    int resultado = maxSubarreglo(arr, 0, arr.size() - 1);
+
+    cout << "La suma maxima del subarreglo es: " << resultado << endl;
+
+    return 0; 
 }
