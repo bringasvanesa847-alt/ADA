@@ -45,4 +45,8 @@ int main() {
     cout << "La suma maxima del subarreglo es: " << resultado << endl;
 
     return 0; 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 98599af4d8f3af1f2544d84f1cf7b39791714c72
