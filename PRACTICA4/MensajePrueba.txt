@@ -1,1 +1,0 @@
-Buenas tardes, este es un mensaje de ejemplo para probar el programa de Codificación Huffman. Nuestro equipo está conformado por Gonzalez Miranda Joseline Lizleth, Martinez Bringas Vanesa Gisell, Martinez Redon Abraham, Rodriguez Arzate Diego Arturo, Quintero Guendulain Itzel y Vargas Bello Brenda Montserrat. 
